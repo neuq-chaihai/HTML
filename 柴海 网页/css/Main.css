@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*精品推荐*/
+
+#Main_first{
+	width: 1087px;
+	height: 50px;
+	background-color: #fff;
+	margin-left: 200px;
+	margin-top: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	display: flex;
+}
+
+#Main_first div:nth-child(1) {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	padding-left: 20px;
+}
+
+#Main_first div:nth-child(1) span{
+	color: #22B0FF;
+	font-weight: 700;padding-right: 10px;
+	cursor: text;
+}
+
+#Main_first div:nth-child(1) a{
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #050505;
+}
+
+#Main_first div:nth-child(1) a:hover {
+	color: rgba(232,0,4,1.00);
+}
+
+#Main_first div:nth-child(2) {
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	padding-left: 50px;
+	padding-right: 15px;
+	color: #666666;
+	font-size: 14px;
+	cursor: text;
+}
+
+#Main_second{
+	width: 1087px;
+	height: 50px;
+/*	background-color: red;*/
+	display: flex;
+	margin-top: 20px;
+	margin-left: 200px;
+}
+
+#Main_second div:nth-child(1){
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #666666;
+}
+
+#Main_second div:nth-child(2){
+	height: 50px;
+	line-height: 50px;
+	margin-left: 910px;
+	font-size: 14px;
+}
+
+#Main_second div:nth-child(2) a{
+	color: #050505;
+}
+
+#Main_second div:nth-child(2) a:hover{
+	color: red;
+}
+
+#Main_third{
+	width: 1087px;
+	height: 275px;
+	display: flex;
+	background-color: #f3f5f7;
+	margin-left: 160px;
+}
+
+#Main_fourth{
+	width: 1087px;
+	height: 275px;
+	display: flex;
+	background-color: #f3f5f7;
+	margin-left: 160px;
+	margin-top: 20px;
+}
+
+#Main_third div,
+#Main_fourth div{
+	width: 224px;
+	flex: 1;
+	background-color: #fff;
+/*	border: 8px #f3f5f7 solid;*/
+	margin-right: 8px;
+	overflow: hidden;
+	/* text-align: right; */
+}
+
+
+#Main_third div img,
+#Main_fourth div img{
+	width: 219px;
+	height: 103px;
+	display: inline-block;
+	/* text-align: right; */
+	padding-right: 10px;
+}
+
+#Main_third div .one,
+#Main_fourth div .one{
+	display: block;
+	margin: 18px 13px;
+	background-color: #fff;
+}
+
+#Main_third div .two,
+#Main_fourth div .two{
+	display: inline-block;
+	margin-left: 13px;
+	margin-top: 18px;
+	color: rgba(239,5,9,1.00);
+	background-color: #fff;
+}
+
+#Main_third div .three,
+#Main_fourth div .three{
+	color: #666;
+	background-color: #fff;
+}
+
+#Main_third div:hover,
+#Main_fourth div:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
