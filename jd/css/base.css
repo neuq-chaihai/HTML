@@ -1,0 +1,269 @@
+/*声明字体  引用字体*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?axvffw');
+    src:  url('../fonts/icomoon.eot?axvffw#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?axvffw') format('truetype'),
+      url('../fonts/icomoon.woff?axvffw') format('woff'),
+      url('../fonts/icomoon.svg?axvffw#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* 导航栏 */
+
+/* 快捷导航栏 */
+#nav{
+    width: 1519px;
+    height: 32px;
+    position: relative;
+    background-color: #e3e4e5;
+    z-index: 2;
+}
+
+#nav .area{
+    position: absolute;
+    left: 360px;
+    top: 7px;
+}
+
+#nav .area span{
+    color: red;
+    font-family: "icomoon";
+    font-size: 12px;
+}
+
+#nav .area em{
+    color: #9D9D9D;
+    font-size: 12px;
+    font-style: normal;
+    cursor: text;
+}
+
+#nav_fast{
+    float: right;
+    margin-right: 50px;
+}
+
+#nav_fast li{
+    font-size: 12px;
+    color: #9d9d9d;
+    float: left;
+    margin: -7px 7px;
+}
+
+.style_Red{
+    color: red;
+}
+
+#logo{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left: 156px;
+    z-index: 23;
+}
+
+#nav_under{
+    position: absolute;
+    top: 32px;
+    left: 470px;
+}
+
+#nav_under .Text{
+    width: 493px;
+    height: 33px;
+    outline: none;
+    border: 1px solid red;
+    position: absolute;
+    top: 22px;
+}
+
+#nav_under button{
+    width: 50px;
+    height: 37px;
+    background-color: rgb(252, 4, 4);
+    position: absolute;
+    top: 21px;
+    left: 495px;
+}
+
+#nav_under button em{
+    font-family: "icomoon";
+    font-style: normal;
+    font-size: 16px;
+    color: #fff;
+}
+
+#nav_under a{
+    background-image: url("../images/sprite-search.png");
+    background-position: 0px 1px;
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 16px;
+    /* border: 1px solid #000; */
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 470px;
+    top: 33px;
+}
+
+#nav_under .Button{
+    width: 188px;
+    height: 37px;
+    position: absolute;
+    top: 22px;
+    left: 580px;
+    font-size: 12px;
+    color: red;
+    background-color: #fff;
+    text-align: center;
+    line-height: 37px;
+    border: 1px solid #666;
+}
+
+#nav_under .Button em{
+    font-style: normal;
+    font-family: "icomoon";
+    font-size: 16px;
+}
+
+#nav_under img{
+    position: absolute;
+    top: 0px;
+    left: 810px;
+} 
+
+#nav_1{
+    width: 800px;
+    position: absolute;
+    top: 85px;
+    left: 460px;
+}
+
+#nav_1 li{
+    float: left;
+    margin: 0 10px;
+    font-size: 12px;
+    color: #9e9b99;
+}
+
+#nav_1 li em{
+    font-style: normal;
+    color: red;
+}
+
+#nav_2{
+    position: absolute;
+    top: 125px;
+    left: 370px;
+}
+
+#nav_2 li{
+    float: left;
+    margin: 0 15px;
+    color: #555a5f;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#nav_3{
+    position: absolute;
+    left: 1155px;
+    top: 125px;
+}
+
+
+/* 尾部样式 */
+#finally{
+    width: 100%;
+    height: 560px;
+    position: relative;
+    top: 155px;
+    left: 0px;
+}
+
+#finally .f_1{
+    width: 100%;
+    height: 103px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+#finally .f_1 li{
+    float: left;
+}
+
+#finally .f_1 em{
+    display: inline-block;
+    width: 36px;
+    height: 42px;
+    background-image: url(../images/ico_service.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin: 15px 0 15px 150px;
+}
+
+#finally .many{
+    background-position: 0 0;
+}
+
+#finally .fast{
+    background-position: 0 -43px;
+}
+
+#finally .good{
+    background-position: 0 -86px;
+}
+
+#finally .save{
+    background-position: 0 -129px;
+}
+
+#finally .Tab{
+    width: 1190px;
+    height: 200px;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 105px;
+    left: 100px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+#finally .Tab .l{
+    margin-left: 0px;
+}
+
+#finally dl{
+    float: left;
+    margin: 20px 66px;
+    line-height: 25px;
+}
+
+#finally .Tab .Ch{
+    width: 207px;
+    height: 150px;
+    background-image: url(../images/ico_footer.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin-right: 0px;
+}
+
+#finally .Tab dt{
+    color: #666;
+    font-size: 14px;
+}
+#finally .Tab dd{
+    color: #727272;
+    font-size: 12px;
+}
+
+#finally .Tab .more{
+    text-align: right;
+}
+
+#finally .Tab a{
+    font-size: 12px;
+    color: #727272;
+}

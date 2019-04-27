@@ -1,0 +1,111 @@
+/* 头部div样式 */
+#ad{
+    width: 1519px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+}
+
+/* 头部图片样式 */
+#ad .bgi{
+    width: 1190px;
+    height: 80px;
+    display: inline-block;
+}
+
+
+/*声明字体  引用字体*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?axvffw');
+  src:  url('../fonts/icomoon.eot?axvffw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?axvffw') format('truetype'),
+    url('../fonts/icomoon.woff?axvffw') format('woff'),
+    url('../fonts/icomoon.svg?axvffw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#ad .J_over{
+    font-family: "icomoon";
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 3px;
+    right: 185px;
+}
+
+#Main{
+  width: 1519px;
+  height: 480px;
+  position: relative;
+  top: 138px;
+  background-color: pink;
+  overflow: hidden;
+}
+
+#Main .Main_img{
+  position: absolute;
+  top: 0;
+  left: -210px;
+}
+
+#Main_l {
+  position: absolute;
+  width: 190px;
+  height: 478px;
+  top: 2px;
+  left: 156px;
+  background-color: #6e6568;
+}
+
+#Main_l li,
+#Main_l a,
+#Main_r li,
+#Main_r a{
+  color: #fff;
+  line-height: 37px;
+  /* text-align: center; */
+}
+
+#Main_l li,
+#Main_r li{
+  margin: 0 17px;
+}
+
+#Main_c {
+  background-color: skyblue;
+  width: 1000px;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  left: 346px;
+}
+
+#Main_c .img_1{
+  width: 790px;
+  height: 340px;
+  margin: 0 5px;
+}
+
+#Main_c .img_2{
+  height: 130px;
+  margin: 5px;
+  float: left;
+}
+
+#Main_c .img_3{
+  height: 130px;
+  float: left;
+  margin: 5px 0 5px 5px;
+}
+
+#Main_r {
+  position: absolute;
+  width: 201px;
+  height: 478px;
+  top: 0px;
+  left: 1145px;
+  background-color: #6e6568;
+}
